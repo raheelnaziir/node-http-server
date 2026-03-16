@@ -10,6 +10,7 @@ const server = http.createServer((req, res) => {
 
 
     if (req.url == "/about") {
+        const data = fs.readFileSync("index.html");
 
     }
 
